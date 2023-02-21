@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#directorio="directorio$(( $RANDOM % 30 ))"
-directorio="directorio"
+directorio="directorio$(( $RANDOM % 30 ))"
+#directorio="directorio"
 
 if [[ -d $directorio ]]; then
   echo "El directorio $directorio ya existe"
