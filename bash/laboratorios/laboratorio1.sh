@@ -5,7 +5,9 @@ directorio="directorio$(( $RANDOM % 30 ))"
 
 if [[ -d $directorio ]]; then
   echo "El directorio $directorio ya existe"
-  exit
+  echo "Borrando..."
+  sleep 2
+  rm -rf $directorio
 fi
 
 mkdir $directorio
