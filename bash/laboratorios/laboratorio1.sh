@@ -15,6 +15,7 @@ mkdir $directorio
 for (( i=1; i<11; i++ ))
 do
   touch "$directorio/archivo$i.txt"
+  sleep 1
   date >> "$directorio/archivo$i.txt" 
 done
 

@@ -19,6 +19,6 @@ do
   fi
 done
 
-touch compras
-echo "${carrito[@]}" >> compras
+touch compras.txt
+echo "${carrito[@]}" >> compras.txt
   
