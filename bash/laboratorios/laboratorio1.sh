@@ -1,5 +1,7 @@
 #!/bin/bash
 
+## Script que crea un directorio dinamico, verifica si está creado y crea 10 archivos dentro del mismo
+
 directorio="directorio$(( $RANDOM % 30 ))"
 #directorio="directorio"
 
